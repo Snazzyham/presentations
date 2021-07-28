@@ -4,9 +4,10 @@ Forked from [dzslides](https://github.com/paulrouget/dzslides), this is a framew
 
 ## Instructions
 
-- Clone this repo or download `template.html` and `assets` and put them in the same folder.
+- Clone this repo.
 - duplicate `template.html` and rename it to whatever you want. 
 - Start writing out your slides! Put each slide into it's own `<section>` block. For more style examples, check out the `example.html` slide or read the minimal documentation below.
+- If you want to see your changes update live as you save them, make sure you have node installed, run `npm install` and use `npm run dev` to start a development server.
 
 ## Documentation
 
@@ -42,10 +43,10 @@ Edit the CSS file `assets/userstyles.css` to change up the colors or fonts to yo
 
 ## TODO 
 
-[] Add a live-reload server
-[] Export to pdf, using puppeteer or something.
-[] Markdown _to_ HTML _to_ PDF, probably using pandoc.
-[] Probably blog about this, because my blog is looking bare af.
+- [x] Add a live-reload server
+- [] Export to pdf, using puppeteer or something.
+- [] Markdown _to_ HTML _to_ PDF, probably using pandoc.
+- [] Probably blog about this, because my blog is looking bare af.
 
 ## License
 

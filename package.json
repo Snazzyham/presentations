@@ -1,0 +1,23 @@
+{
+  "name": "presentations-public",
+  "version": "1.0.0",
+  "description": "Forked from [dzslides](https://github.com/paulrouget/dzslides), this is a framework for building presentations in HTML. Right now, it's pretty barebones.",
+  "main": "template.html",
+  "scripts": {
+    "dev": "live-server --watch='*.html'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snazzyham/presentations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snazzyham/presentations/issues"
+  },
+  "homepage": "https://github.com/Snazzyham/presentations#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
