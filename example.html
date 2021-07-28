@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>The Title Of Your Presentation</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./assets/userstyles.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/defaultstyle.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- place each slide inside a <section></section> block -->
+    <!-- START CONTENT -->
+
+    <section>
+      <h1>This is a presentation</h1>
+      <p class="subtitle center">I don't know what else to say about it.</p>
+    </section>
+
+    <section class="columns">
+      <div class="two-col">
+        <h4>This is a two column layout</h4>
+        <p class="">Useful for putting things side by slide.</p>
+        <p class="small"><em>That was intentional.</em></p>
+      </div>
+      <div class="two-col">
+        <ul>
+          <li class="next">List items!</li>
+          <li class="next">With transitions!</li>
+          <li class="next">
+            Shoutout to
+            <a href="https://github.com/paulrouget/dzslides">dzslides</a> for
+            the baked in transitions.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="columns">
+      <div class="two-col tall">
+        <h4>This is a two column layout</h4>
+        <p class="">Useful for putting things side by slide.</p>
+        <p class="small"><em>That was intentional.</em></p>
+        <p>
+          You can even make them full height, which pushes the information to
+          the top.
+        </p>
+      </div>
+      <div class="two-col tall">
+        <ul>
+          <li>List items!</li>
+          <li>With transitions!</li>
+          <li>
+            Shoutout to
+            <a href="https://github.com/paulrouget/dzslides">dzslides</a> for
+            the baked in transitions.
+          </li>
+        </ul>
+        <img src="https://media.giphy.com/media/3o7aTnQqygA3TcukFi/giphy.gif" />
+      </div>
+    </section>
+
+    <section>
+      <h3>You can even embed layouts!</h3>
+      <div class="columns center">
+        <div class="three-col">
+          <p>Like this!</p>
+        </div>
+        <div class="three-col">
+          <p>Neat right!</p>
+        </div>
+        <div class="three-col">
+          <p>It's a 3 column layout, with a centered header.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <figure>
+        <img
+          src="https://media.giphy.com/media/uM0QzrHWSDr4KwbC3v/giphy.gif"
+          class="blur"
+        />
+        <figcaption>
+          This is text, over a blurred gif, with a semi transparent black layer
+          in between. You can even add videos this way, or just embed youtube
+          videos, etc.
+        </figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h4>FIN.</h4>
+    </section>
+
+    <!-- END CONTENT -->
+
+    <!-- progress bar and style linking -->
+
+    <div id="progress-bar"></div>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
