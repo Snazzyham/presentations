@@ -44,9 +44,10 @@ Edit the CSS file `assets/userstyles.css` to change up the colors or fonts to yo
 ## TODO 
 
 - [x] Add a live-reload server
-- [] Export to pdf, using puppeteer or something.
-- [] Markdown _to_ HTML _to_ PDF, probably using pandoc.
-- [] Probably blog about this, because my blog is looking bare af.
+- [  ] Export to pdf, using puppeteer or something.
+- [  ] Markdown _to_ HTML _to_ PDF, probably using pandoc.
+- [  ] Probably blog about this, because my blog is looking bare af.
+- [  ] Theme support. If I wanna go overkill I can try to figure out Pywal integration.
 
 ## License
 

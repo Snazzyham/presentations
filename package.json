@@ -1,6 +1,6 @@
 {
   "name": "presentations-public",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Forked from [dzslides](https://github.com/paulrouget/dzslides), this is a framework for building presentations in HTML. Right now, it's pretty barebones.",
   "main": "template.html",
   "scripts": {
