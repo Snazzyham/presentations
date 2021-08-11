@@ -86,8 +86,17 @@ li {
   margin-bottom: 0.5rem;
 }
 
-ul ul {
+ul ul,
+ul ol,
+ol ol,
+ol ul {
   margin-left: 2rem;
+}
+
+ol ul li {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 section {
